@@ -11,8 +11,13 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn run dev
 
-# build for production and launch server
+# build for staging -> static/robots.txt: Disallow: /
+$ yarn run build:staging
+
+# build for production -> static/robots.txt: Allow: /
 $ yarn run build
+
+# launch server
 $ yarn start
 
 # generate static project
