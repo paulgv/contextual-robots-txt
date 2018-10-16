@@ -79,3 +79,6 @@ dist
 
 # IDE
 .idea
+
+# Robots.txt
+static/robots.txt
